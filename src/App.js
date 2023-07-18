@@ -31,11 +31,11 @@ const GuideForm = () => {
     <li><strong>Textbook allowed:</strong>  ${aig.book} </li>
     <li><strong>Other external resources allowed:</strong>  ${aig.exter} </li>
     <li><strong>Collaboration allowed:</strong>  ${aig.group} </li>
-    <li><strong>Required Citatation Format:</strong> ${aig.cite}</li>
+    <li><strong>Required Citation Format:</strong> ${aig.cite}</li>
     <li><strong>Generative AI allowed:</strong>  ${aig.genAi} </li>
     </ul>
     </p>
-    <p>Failure to follow these guidelines could result in an academic integrity violation and subsequent disciplary action as outlined in the CCC Student Handbook</p>
+    <p>Failure to follow these guidelines could result in an academic integrity violation and subsequent disciplinary action as outlined in the CCC Student Handbook</p>
     `;
     event.preventDefault();
     event.stopPropagation();
