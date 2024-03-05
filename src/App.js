@@ -7,7 +7,7 @@ const Intro = () => {
       <h1>AIG Builder</h1>
       <div className = "instructions">
       <p>The AIG builder helps you create academic integrity guidelines to for your students to clarify what is and is not allowed during assessments.</p>
-      <p>Use the form below to create your guidelines. Then you can copy and paste them into your assignment instructions.</p>
+      <p>Use the form below to create your guidelines. Then you can highlight the text, copy, and paste them into your assignment instructions or use the 'Copy Clipboard' button to copy the HTML code to embed in the item.</p>
     </div>
     </header>
   )
@@ -73,7 +73,7 @@ const GuideForm = () => {
       <label for="apa">APA <input type="radio" required name="aig5" value="apa" id="apa" onClick = {() => {setAig(prevState => ({...prevState, cite: "APA"}))}}/></label>
       <label for="mla">MLA <input type="radio" name="aig5" value="mla" id="mla" onClick = {() => {setAig(prevState => ({...prevState, cite: "MLA"}))}}/></label>
       <label for="chi">Chicago <input type="radio" name="aig5" value="chi" id="chi" onClick = {() => {setAig(prevState => ({...prevState, cite: "Chicago"}))}}/></label>
-      <label for="osg">Other <input type="radio" name="aig5" value="osg" id="osg" onClick = {() => {setAig(prevState => ({...prevState, cite: "Other !instructor edit this with required manual!"}))}}/></label>
+      <label for="osg">Other <input type="radio" name="aig5" value="osg" id="osg" onClick = {() => {setAig(prevState => ({...prevState, cite: "Other <div style='background-color: yellow; font-weight:bold'>instructor edit this with required manual</div>"}))}}/></label>
       <label for="ncn">No Citations Necessary <input type="radio" name="aig5" value="ncn" id="ncn" onClick = {() => {setAig(prevState => ({...prevState, cite: "No Citations Required"}))}}/></label>
       </fieldset>
 
