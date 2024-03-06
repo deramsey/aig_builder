@@ -7,7 +7,7 @@ const Intro = () => {
       <h1>AIG Builder</h1>
       <div className = "instructions">
       <p>The AIG builder helps you create academic integrity guidelines to for your students to clarify what is and is not allowed during assessments.</p>
-      <p>Use the form below to create your guidelines. Then you can highlight the text, copy, and paste them into your assignment instructions or use the 'Copy Clipboard' button to copy the HTML code to embed in the item.</p>
+      <p>Use the form below to create your guidelines. Then you can highlight the text, copy, and paste it into your assignment instructions or use the 'Copy Clipboard' button to copy the HTML code to embed in the item.</p>
     </div>
     </header>
   )
